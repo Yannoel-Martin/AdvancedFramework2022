@@ -33,6 +33,10 @@
     {
       "fieldName": "commissionPct",
       "fieldType": "Long"
+    },
+    {
+      "fieldName": "societyId",
+      "fieldType": "String"
     }
   ],
   "fluentMethods": true,

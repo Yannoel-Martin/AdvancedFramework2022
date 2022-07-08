@@ -32,6 +32,7 @@ export class EmployeeUpdateComponent implements OnInit {
     hireDate: [],
     salary: [],
     commissionPct: [],
+    societyId: [],
     manager: [],
     department: [],
   });
@@ -107,6 +108,7 @@ export class EmployeeUpdateComponent implements OnInit {
       hireDate: employee.hireDate ? employee.hireDate.format(DATE_TIME_FORMAT) : null,
       salary: employee.salary,
       commissionPct: employee.commissionPct,
+      societyId: employee.societyId,
       manager: employee.manager,
       department: employee.department,
     });
@@ -154,6 +156,7 @@ export class EmployeeUpdateComponent implements OnInit {
       hireDate: this.editForm.get(['hireDate'])!.value ? dayjs(this.editForm.get(['hireDate'])!.value, DATE_TIME_FORMAT) : undefined,
       salary: this.editForm.get(['salary'])!.value,
       commissionPct: this.editForm.get(['commissionPct'])!.value,
+      societyId: this.editForm.get(['societyId'])!.value,
       manager: this.editForm.get(['manager'])!.value,
       department: this.editForm.get(['department'])!.value,
     };

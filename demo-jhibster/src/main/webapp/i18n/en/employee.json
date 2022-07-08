@@ -25,6 +25,7 @@
       "hireDate": "Hire Date",
       "salary": "Salary",
       "commissionPct": "Commission Pct",
+      "societyId": "Society Identifier",
       "job": "Job",
       "manager": "Manager",
       "department": "Department",

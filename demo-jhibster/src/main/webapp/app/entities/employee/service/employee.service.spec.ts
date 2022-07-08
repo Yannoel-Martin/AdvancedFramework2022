@@ -32,6 +32,7 @@ describe('Employee Service', () => {
       hireDate: currentDate,
       salary: 0,
       commissionPct: 0,
+      societyId: "XXXX0000",
     };
   });
 
@@ -85,6 +86,7 @@ describe('Employee Service', () => {
           hireDate: currentDate.format(DATE_TIME_FORMAT),
           salary: 1,
           commissionPct: 1,
+          societyId: "VVVV7777",
         },
         elemDefault
       );
@@ -112,6 +114,7 @@ describe('Employee Service', () => {
           hireDate: currentDate.format(DATE_TIME_FORMAT),
           salary: 1,
           commissionPct: 1,
+          societyId: "VVVV7777",
         },
         new Employee()
       );
@@ -143,6 +146,7 @@ describe('Employee Service', () => {
           hireDate: currentDate.format(DATE_TIME_FORMAT),
           salary: 1,
           commissionPct: 1,
+          societyId: "VVVV7777",
         },
         elemDefault
       );

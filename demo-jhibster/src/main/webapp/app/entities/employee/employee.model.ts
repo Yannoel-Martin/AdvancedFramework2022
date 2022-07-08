@@ -11,6 +11,7 @@ export interface IEmployee {
   hireDate?: dayjs.Dayjs | null;
   salary?: number | null;
   commissionPct?: number | null;
+  societyId?: string | null;
   jobs?: IJob[] | null;
   manager?: IEmployee | null;
   department?: IDepartment | null;
@@ -26,6 +27,7 @@ export class Employee implements IEmployee {
     public hireDate?: dayjs.Dayjs | null,
     public salary?: number | null,
     public commissionPct?: number | null,
+    public societyId?: string | null,
     public jobs?: IJob[] | null,
     public manager?: IEmployee | null,
     public department?: IDepartment | null

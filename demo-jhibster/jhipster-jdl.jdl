@@ -42,7 +42,8 @@ entity Employee {
     phoneNumber String
     hireDate Instant
     salary Long,
-    commissionPct Long
+    commissionPct Long,
+    societyId String
 }
 
 entity Job {
