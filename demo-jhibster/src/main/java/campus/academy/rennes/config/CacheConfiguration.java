@@ -48,6 +48,18 @@ public class CacheConfiguration {
             createCache(cm, campus.academy.rennes.domain.User.class.getName());
             createCache(cm, campus.academy.rennes.domain.Authority.class.getName());
             createCache(cm, campus.academy.rennes.domain.User.class.getName() + ".authorities");
+            createCache(cm, campus.academy.rennes.domain.Region.class.getName());
+            createCache(cm, campus.academy.rennes.domain.Country.class.getName());
+            createCache(cm, campus.academy.rennes.domain.Location.class.getName());
+            createCache(cm, campus.academy.rennes.domain.Department.class.getName());
+            createCache(cm, campus.academy.rennes.domain.Department.class.getName() + ".employees");
+            createCache(cm, campus.academy.rennes.domain.Task.class.getName());
+            createCache(cm, campus.academy.rennes.domain.Task.class.getName() + ".jobs");
+            createCache(cm, campus.academy.rennes.domain.Employee.class.getName());
+            createCache(cm, campus.academy.rennes.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, campus.academy.rennes.domain.Job.class.getName());
+            createCache(cm, campus.academy.rennes.domain.Job.class.getName() + ".tasks");
+            createCache(cm, campus.academy.rennes.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

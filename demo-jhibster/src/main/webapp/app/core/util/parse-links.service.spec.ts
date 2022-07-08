@@ -2,7 +2,7 @@ import { inject, TestBed } from '@angular/core/testing';
 
 import { ParseLinks } from './parse-links.service';
 
-describe('Parse links service test', () => {
+describe('Parse links service jhipster-jdl.jdl', () => {
   describe('Parse Links Service Test', () => {
     beforeEach(() => {
       TestBed.configureTestingModule({
@@ -24,7 +24,7 @@ describe('Parse links service test', () => {
 
     it('should throw an error when passed without semicolon', inject([ParseLinks], (service: ParseLinks) => {
       expect(function () {
-        service.parse('test,test2');
+        service.parse('jhipster-jdl.jdl,test2');
       }).toThrow(new Error('section could not be split on ";"'));
     }));
 

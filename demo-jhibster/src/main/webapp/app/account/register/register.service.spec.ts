@@ -28,7 +28,7 @@ describe('RegisterService Service', () => {
     it('should call register endpoint with correct values', () => {
       // GIVEN
       const login = 'abc';
-      const email = 'test@test.com';
+      const email = 'jhipster-jdl.jdl@jhipster-jdl.jdl.com';
       const password = 'pass';
       const langKey = 'FR';
       const registration = new Registration(login, email, password, langKey);

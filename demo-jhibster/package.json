@@ -53,7 +53,7 @@
     "start": "ng serve --hmr",
     "start-tls": "npm run webapp:dev-ssl",
     "pretest": "npm run lint",
-    "test": "ng test --coverage --log-heap-usage -w=2",
+    "test": "ng jhipster-jdl.jdl --coverage --log-heap-usage -w=2",
     "test:watch": "npm run test -- --watch",
     "watch": "concurrently npm:start npm:backend:start",
     "webapp:build": "npm run clean-www && npm run webapp:build:dev",
