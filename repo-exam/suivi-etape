@@ -1,0 +1,21 @@
+# Suivi étape avec difficultés rencontrées & les réflexions associées
+
+## Changement design
+
+texte du footer changé après quelques essai, le temps passé sur ce passage est surtout du à l'oubli de relancement de l'application pour vider le cache
+
+changement du design du footer la couleur de fond en darkgreen et la couleur de texte en blanc a suivi les meme problème que le changement du texte en plus de l'utilisation du style & du fichier global.scss
+
+changement du design de navbar, la couleur de texte en dans les tons du purple, la difficulté rencontrée est que le changement de couleur de fond était bloqué par la classe, ce qui a mené au souhait de mettre la priorité sur la couleur du texte, elle meme bloquée à la surcharge  des propriétés
+
+## Ajout de page
+
+Problème lié au nom dans le selector du component, résolution effectué lorsqu'il est précédé par jhi
+
+Problème de la fa-icone dans la navbar, résolution effectuée en la retirant
+
+## Diffuclté entities
+
+les entités de base provanant du fichier ne s'affichent pas dans la liste, certainement du a un mauvais paramétrage ou a une mauvaise exécution des commandes, a la suite d'une nouvelle exécution de ses dernières le résultat n'ayant pas changé, les entités basique ne se trouvent pas dans l'application, le processus avait été réalisé dans la démo
+
+l'entité book a été créé par la suite avec la commande `jhipster entity book`
