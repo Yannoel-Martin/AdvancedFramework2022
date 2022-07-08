@@ -1,0 +1,44 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="book">
+      <h2 data-cy="bookDetailsHeading"><span jhiTranslate="jhipsterApp.book.detail.title">Book</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ book.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="jhipsterApp.book.author">Author</span></dt>
+        <dd>
+          <span>{{ book.author }}</span>
+        </dd>
+        <dt><span jhiTranslate="jhipsterApp.book.price">Price</span></dt>
+        <dd>
+          <span>{{ book.price }}</span>
+        </dd>
+        <dt><span jhiTranslate="jhipsterApp.book.date">Date</span></dt>
+        <dd>
+          <span>{{ book.date }}</span>
+        </dd>
+        <dt><span jhiTranslate="jhipsterApp.book.title">Title</span></dt>
+        <dd>
+          <span>{{ book.title }}</span>
+        </dd>
+        <dt><span jhiTranslate="jhipsterApp.book.pageNumber">Page Number</span></dt>
+        <dd>
+          <span>{{ book.pageNumber }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+    </div>
+  </div>
+</div>

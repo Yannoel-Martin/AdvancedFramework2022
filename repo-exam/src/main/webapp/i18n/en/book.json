@@ -1,0 +1,20 @@
+{
+  "jhipsterApp": {
+    "book": {
+      "home": {
+        "title": "Books",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Books found"
+      },
+      "detail": {
+        "title": "Book"
+      },
+      "id": "ID",
+      "author": "Author",
+      "price": "Price",
+      "date": "Date",
+      "title": "Title",
+      "pageNumber": "Page Number"
+    }
+  }
+}
