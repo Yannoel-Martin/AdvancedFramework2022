@@ -79,6 +79,18 @@
         </div>
 
         <div class="row mb-3">
+          <label class="form-label" jhiTranslate="demo3App.employee.societyId" for="field_societyId">Society Identifier</label>
+          <input
+            type="text"
+            class="form-control"
+            name="societyId"
+            id="field_societyId"
+            data-cy="societyId"
+            formControlName="societyId"
+          />
+        </div>
+
+        <div class="row mb-3">
           <label class="form-label" jhiTranslate="demo3App.employee.manager" for="field_manager">Manager</label>
           <select class="form-control" id="field_manager" data-cy="manager" name="manager" formControlName="manager">
             <option [ngValue]="null"></option>
