@@ -21,6 +21,10 @@ import { UserRouteAccessService } from 'app/core/auth/user-route-access.service'
           loadChildren: () => import('./admin/admin-routing.module').then(m => m.AdminRoutingModule),
         },
         {
+          path: 'help',
+          loadChildren: () => import('./help/help.module').then(m => m.HelpModule),
+        },
+        {
           path: 'account',
           loadChildren: () => import('./account/account.module').then(m => m.AccountModule),
         },
