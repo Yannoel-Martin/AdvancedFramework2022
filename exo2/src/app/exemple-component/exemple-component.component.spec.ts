@@ -12,9 +12,7 @@ describe('ExempleComponentComponent', () => {
     })
     .compileComponents();
   });
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(ExempleComponentComponent);
+  beforeEach(() => {ixture = TestBed.createComponent(ExempleComponentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
